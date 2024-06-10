@@ -1,0 +1,12 @@
+[user]
+	name = ooxx
+	email = rossiblack@duck.com
+[http]
+	sslVerify = true
+[init]
+	defaultbranch = main
+[alias]
+        co = checkout 
+        br = branch
+        ci = commit
+        st = status
