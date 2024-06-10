@@ -31,6 +31,8 @@ zinit light-mode for \
 
 alias ll='ls -alF'
 alias py='python3'
+alias vim='nvim'
+alias ya='yadm'
 
 # zsh 套件四天王
 zinit light zsh-users/zsh-completions
