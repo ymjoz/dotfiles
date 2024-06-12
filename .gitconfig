@@ -6,7 +6,4 @@
 [init]
 	defaultbranch = main
 [alias]
-        co = checkout 
-        br = branch
-        ci = commit
         st = status
