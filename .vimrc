@@ -32,3 +32,7 @@ filetype plugin on
 
 set nocompatible
 
+" move selected lines down
+vnoremap J :m '>+1<CR>gv=gv
+" move selected lines up 
+vnoremap K :m '<-2<CR>gv=gv
