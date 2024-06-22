@@ -1,8 +1,4 @@
 vim.loader.enable()
 require("essentials")
-
-if vim.g.vscode then
-    -- VSCode extension
-else
-    -- ordinary Neovim
-end
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
