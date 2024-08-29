@@ -29,7 +29,7 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
-alias ll='ls -alF'
+alias ll='ls -ltrhF'
 alias py='python3'
 alias vim='nvim'
 alias ya='yadm'
