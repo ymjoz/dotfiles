@@ -1,5 +1,9 @@
 ### SOP
-- 使用１台fresh的 ubuntu
+- 使用１台fresh的 ubuntu (update, upgrade 記得先做)
+  ```bash
+  sudo apt update -y
+  sudo apt upgrade -y
+  ```
 - 先把 zsh 安裝完成
   ```bash
   sudo apt install zsh -y
