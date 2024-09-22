@@ -31,3 +31,7 @@
   ```bash
   $ zsh
   ```
+- 最後(optional) 將 zsh 設為登入時的 default shell
+  ```bash
+  sudo usermod -s /bin/zsh $USER
+  ```
