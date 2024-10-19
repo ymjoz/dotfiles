@@ -1,8 +1,5 @@
 ### SOP
-- 第一步
-  ```bash
-  git clone git@ymjoz:ymjoz/dotfiles.git
-  ```
+
 - 使用１台fresh的 ubuntu (update, upgrade 記得先做)
   ```bash
   sudo apt update -y
