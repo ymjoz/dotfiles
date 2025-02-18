@@ -31,7 +31,7 @@ zinit light-mode for \
 
 alias ll='ls -ltrhF'
 alias py='python3'
-alias vim='nvim'
+# alias vim='nvim'
 alias ya='yadm'
 
 # zsh 套件四天王
