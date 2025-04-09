@@ -23,7 +23,7 @@ set splitright
 
 " color
 syntax on " 語法高亮
-colorscheme darkblue
+" colorscheme darkblue
 
 " filetype
 filetype on 
