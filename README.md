@@ -1,4 +1,4 @@
-## SOP - zsh
+## SOP 使用 zsh
 
 - 使用１台fresh的 ubuntu (update, upgrade 記得先做)
   ```bash
@@ -36,6 +36,7 @@
   ```bash
   sudo usermod -s /bin/zsh $USER
   ```
-## SOP fish shell
-- todo 
+## SOP 使用 fish shell
+- 安裝 fish 
+- 安裝 starship 套件
 
