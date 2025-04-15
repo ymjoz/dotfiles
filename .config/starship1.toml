@@ -1,0 +1,48 @@
+# ~/.config/starship.toml
+
+# 設置提示符格式
+format = """
+[╭─](bold green)$username$hostname$directory$git_branch$git_status
+[╰─➤ ](bold green)$character"""
+
+# 用戶名
+[username]
+show_always = true
+style_user = "blue bold"
+style_root = "red bold"
+format = "[$user]($style)@"
+
+# 主機名
+[hostname]
+ssh_only = false
+style = "yellow bold"
+format = "[$hostname]($style):"
+
+# 當前目錄
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+style = "cyan bold"
+format = "[$path]($style) "
+
+# Git 分支與狀態
+[git_branch]
+style = "purple"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "red"
+format = "[$all_status$ahead_behind]($style) "
+
+# 提示符結尾字符
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
+
+# 禁用不必要的模組（可根據需要啟用）
+# [aws]
+# disabled = true
+# [python]
+# disabled = true
+# [nodejs]
+# disabled = true
