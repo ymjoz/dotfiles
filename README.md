@@ -36,6 +36,14 @@
   ```bash
   sudo usermod -s /bin/zsh $USER
   ```
+  
+- 常開新 VM / container，直接把這段加進 bootstrap, 之後任何 cloud image 都不會再遇到這個「UTF-8 但其實沒有 locale」的假象
+  ```bash
+  sudo apt install -y locales
+  sudo locale-gen en_US.UTF-8
+  sudo update-locale LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8
+  ```
+  
 ## SOP 使用 fish shell
 - 安裝 fish 
 - 安裝 starship 套件
