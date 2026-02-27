@@ -43,6 +43,12 @@
   sudo locale-gen en_US.UTF-8
   sudo update-locale LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8
   ```
+
+## MISC
+- 改時區
+  ```bash
+  sudo timedatectl set-timezone Asia/Taipei
+  ```
   
 ## SOP 使用 fish shell
 - 安裝 fish 
